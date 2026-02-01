@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Interactive Quiz App</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Main Styles -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="app-wrapper">
+
+    <!-- Category Toggle Aligned to App -->
+    <div class="category-bar">
+      <select id="categorySelect">
+        <option value="cricket">Cricket</option>
+        <option value="gk">General Knowledge</option>
+        <option value="ap_politics">AP Politics</option>
+        <option value="science">Science</option>
+        <option value="technology">Technology</option>
+      </select>
+    </div>
+
+    <!-- Quiz Application Card -->
+    <main class="app">
+      <header class="app-header">
+        <h1>Interactive Quiz</h1>
+        <p>Select a topic. Test your knowledge.</p>
+      </header>
+
+      <!-- Quiz Content Injected by JS -->
+      <section id="quiz-container"></section>
+    </main>
+
+  </div>
+
+  <!-- Logic -->
+  <script src="script.js"></script>
+
+</body>
+</html>
